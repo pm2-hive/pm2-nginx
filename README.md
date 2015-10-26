@@ -31,8 +31,8 @@ The default connection details are :
 "protocol" : "http"
 "hostname" : "localhost"  
 "port" : 80  
-"statusPath" : "/nginx_stub_status"
-"username" : "" // No Authentification by default
+"statusPath" : "/nginx_stub_status"  
+"username" : "" // No Authentification by default  
 "password" : ""
  
 

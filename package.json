@@ -18,7 +18,8 @@
     "port": 80,
     "statusPath": "/nginx_stub_status",
     "username": "",
-    "password": ""
+    "password": "",
+    "refresh_rate": 5000
   },
   "apps": [
     {

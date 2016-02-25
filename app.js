@@ -39,10 +39,12 @@ pmx.initModule({
   }
 
 }, function (err, conf) {
+  var refresh_rate = process.env.PM2_NGINX_REFRESH_RATE || conf.refresh_rate;
+
   var nginxClient = nginxClientFactory.build(conf);
 
   // Init metrics refresh loop
-  nginxStats.init(nginxClient);
+  nginxStats.init(nginxClient, refresh_rate);
 
   // Init actions
   nginxActions.init(nginxClient);

@@ -1,6 +1,6 @@
 {
   "name": "pm2-nginx",
-  "version": "0.0.3",
+  "version": "1.0.1",
   "description": "PM2 Nginx Module",
   "main": "app.js",
   "dependencies": {
@@ -24,7 +24,6 @@
   "apps": [
     {
       "merge_logs": true,
-      "max_memory_restart": "200M",
       "script": "app.js"
     }
   ],

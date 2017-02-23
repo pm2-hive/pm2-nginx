@@ -11,7 +11,7 @@ pmx.initModule({
   widget: {
 
     // Logo displayed
-    logo: 'http://nginx.org/nginx.png',
+    logo: 'https://nginx.org/nginx.png',
 
     // Module colors
     // 0 = main element
